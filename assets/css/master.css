@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  background-color: #173358;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+nav .logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 0 15px;
+  text-transform: uppercase;
+}
+
+ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+}
