@@ -7,7 +7,8 @@
 
 nav {
   background-color: #173358;
-  height: 60px;
+  height: 80px;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -15,23 +16,39 @@ nav {
   width: 100%;
 }
 
-nav .logo img {
-  display: inline-block;
+.logo img {
+  display: inline;
   vertical-align: middle;
+  padding-left: 30px;
 }
 nav ul {
+  display: inline-block;
   list-style: none;
+
 }
 
 nav ul li {
   display: inline-block;
   margin-left: 0 15px;
   text-transform: uppercase;
+  vertical-align: middle;
 }
 
 ul li a {
   text-decoration: none;
   display: inline-block;
   color: white;
-  vertical-align: middle;
+}
+
+.left li {
+  padding: 0 10px;
+}
+
+.right {
+  float: right;
+  padding-right: 30px;
+}
+
+.right li {
+  padding: 0 10px;
 }
