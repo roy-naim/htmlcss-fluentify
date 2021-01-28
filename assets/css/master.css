@@ -5,7 +5,7 @@
 }
 
 
-nav {
+.container {
   background-color: #173358;
   height: 80px;
   position: fixed;
@@ -13,40 +13,44 @@ nav {
   left: 0;
   z-index: 1;
   width: 100%;
-}
-
-.logo img {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 30px;
-}
-nav ul {
-  display: inline-block;
-  list-style: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 0 15px;
   text-transform: uppercase;
+}
+
+.container .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container .logo img {
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.container .left {
+  display: inline-block;
   vertical-align: middle;
 }
 
-ul li a {
-  text-decoration: none;
+.container .right {
   display: inline-block;
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+  vertical-align: middle;
+}
+.container ul li a {
+  text-decoration: none;
   color: white;
 }
 
-.left li {
-  padding: 0 10px;
+.jumbotron {
+  background-color: #173358;
+  height: 100vh;
 }
 
-.right {
+.jumbotron img {
   float: right;
-  padding-right: 30px;
-}
-
-.right li {
-  padding: 0 10px;
+  width: 70%;
+  margin-top: 110px;
 }
