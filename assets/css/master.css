@@ -54,3 +54,22 @@ li {
   width: 70%;
   margin-top: 110px;
 }
+
+h1 {
+  color: white;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-top: 100px;
+}
+
+.jumnbotron a {
+  display: inline-block;
+  background-color: #B0C926;
+  padding: 5px 15px;
+  border-width: 0;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 50px;
+  cursor: pointer;
+}
