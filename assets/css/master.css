@@ -100,3 +100,26 @@ li {
   color: white;
   cursor: pointer;
 }
+
+.bg-lightgrey {
+  background-color: #D3D3D3;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.bg-lightgrey h2 {
+  color: black;
+  font-family: Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.bg-lightgrey p {
+  color: #808080;
+  font-family: Verdana, sans-serif;
+}
+
+.main {
+  height: 100vh;
+
+}
