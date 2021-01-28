@@ -14,8 +14,14 @@
   z-index: 1;
   width: 100%;
   text-transform: uppercase;
+  font-family: Verdana, sans-serif;
 }
 
+ul {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 10px;
+}
 .container .logo {
   display: inline-block;
   vertical-align: middle;
@@ -33,43 +39,64 @@
 .container .right {
   display: inline-block;
   vertical-align: middle;
+  float: right;
 }
 
 li {
+  display: inline-block;
   list-style: none;
   vertical-align: middle;
+  margin: 0 20px;
 }
 .container ul li a {
   text-decoration: none;
   color: white;
 }
 
+.login {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px 30px;
+}
+.struttura {
+  text-decoration: none;
+  color: white;
+  background-color: #7BB928;
+  border-width: 0;
+  border-radius: 4px;
+  padding: 10px 25px;
+}
+
 .jumbotron {
   background-color: #173358;
   height: 100vh;
+  width: 100%;
+  background-image: url('../img/background-header.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70%;
 }
 
-.jumbotron img {
-  float: right;
-  width: 70%;
-  margin-top: 110px;
-}
 
-h1 {
+.jumbotron h1 {
   color: white;
   font-size: 50px;
   padding-left: 20px;
-  padding-top: 100px;
+  padding-top: 200px;
+  margin: 50px 0;
+
 }
 
-.jumnbotron a {
-  display: inline-block;
-  background-color: #B0C926;
-  padding: 5px 15px;
+.piano {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #7BB928;
+  padding: 25px 20px;
+  margin-left: 20px;
   border-width: 0;
   border-radius: 5px;
   color: white;
-  margin-top: 15px;
-  margin-left: 50px;
   cursor: pointer;
 }
